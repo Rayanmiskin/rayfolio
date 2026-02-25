@@ -75,7 +75,7 @@ const Hero = () => {
       {/* Main Title */}
       <h1
         ref={titleRef}
-        className="text-[15vw] md:text-[12vw] lg:text-[10vw] font-black text-center leading-none tracking-tight mb-6"
+        className="text-[13vw] md:text-[12vw] lg:text-[10vw] font-black text-center leading-none tracking-tight mb-6 break-words px-4"
       >
         <span className="text-gradient">{heroConfig.title}</span>
       </h1>

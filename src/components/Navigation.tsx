@@ -29,7 +29,7 @@ const Navigation = () => {
   return (
     <>
       <nav
-        className={`fixed left-4 right-4 z-50 mx-auto max-w-6xl transition-all duration-500 ${isScrolled ? 'top-4' : 'top-6'
+        className={`fixed left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-6xl transition-all duration-500 ${isScrolled ? 'top-4' : 'top-6'
           }`}
       >
         <div
@@ -97,8 +97,8 @@ const Navigation = () => {
       {/* Mobile Menu */}
       <div
         className={`fixed inset-0 z-40 backdrop-blur-xl transition-all duration-500 md:hidden ${isMobileMenuOpen
-            ? 'opacity-100 pointer-events-auto'
-            : 'opacity-0 pointer-events-none'
+          ? 'opacity-100 pointer-events-auto'
+          : 'opacity-0 pointer-events-none'
           }`}
         style={{ background: 'var(--bg-primary)' }}
       >

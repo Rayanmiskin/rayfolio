@@ -121,7 +121,7 @@ export const worksConfig: WorksConfig = {
       category: "NLP AI Automation",
       image: "/project2.png",
       link: "https://drive.google.com/drive/folders/1pzu_WKPk4Z92TtovsUPJxzPLPbf-7ets?usp=sharing",
-      description: "A WhatsApp chatbot that sends automated reminders to users based on their schedules. And also updates a Google Calendar with user interactions and reminder details for easy tracking and management.", 
+      description: "A WhatsApp chatbot that sends automated reminders to users based on their schedules. And also updates a Google Calendar with user interactions and reminder details for easy tracking and management.",
     },
     {
       id: 2,
@@ -156,8 +156,8 @@ export const worksConfig: WorksConfig = {
       title: "Mail Backup and Management System",
       category: "Automation, Python",
       image: "/project1.jpg",
-      link: "",
-      description: "Refined and modernized a designer contract template to enhance clarity and professional presentation.",
+      link: "https://drive.google.com/drive/folders/1WbI4yAVD-Kx1-70rIqyUmY7konh-JAdt?usp=sharing",
+      description: "A system to backup and manage emails including attachments.",
     },
   ],
 };
@@ -258,7 +258,7 @@ export const testimonialsConfig: TestimonialsConfig = {
   title: "What Clients Say",
   subtitle: "Feedback from people I've had the pleasure of working with",
   testimonials: [
-  
+
     {
       id: 2,
       name: "Athiq Ahmeer",

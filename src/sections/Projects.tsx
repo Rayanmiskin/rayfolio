@@ -81,20 +81,20 @@ const Projects = () => {
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block relative aspect-[16/9] md:aspect-[21/9]"
+                className="block relative min-h-[400px] md:min-h-0 md:aspect-[21/9]"
               >
                 {/* Background Image */}
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />
 
                 {/* Content Overlay */}
-                <div className="absolute inset-0 z-10 flex flex-col justify-end p-6 md:p-10">
+                <div className="absolute inset-0 z-10 flex flex-col justify-end p-5 md:p-10 overflow-hidden">
                   {/* Number */}
                   <div className="absolute top-6 left-6 md:top-10 md:left-10">
-                    <span className="text-6xl md:text-8xl font-black text-white/20">
+                    <span className="text-4xl md:text-8xl font-black text-white/20">
                       {project.number}
                     </span>
                   </div>
@@ -119,12 +119,12 @@ const Projects = () => {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-2xl md:text-4xl font-bold text-white mb-2 group-hover:translate-x-2 transition-transform duration-300">
+                  <h3 className="text-xl md:text-4xl font-bold text-white mb-2 group-hover:translate-x-2 transition-transform duration-300">
                     {project.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-sm md:text-base text-white/80 max-w-2xl mb-4">
+                  <p className="text-xs md:text-base text-white/80 max-w-2xl mb-3 line-clamp-3 md:line-clamp-none">
                     {project.description}
                   </p>
 

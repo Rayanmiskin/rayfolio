@@ -29,14 +29,12 @@ const Navigation = () => {
   return (
     <>
       <nav
-        className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-6xl transition-all duration-500 ${
-          isScrolled ? 'top-4' : 'top-6'
-        }`}
+        className={`fixed left-4 right-4 z-50 mx-auto max-w-6xl transition-all duration-500 ${isScrolled ? 'top-4' : 'top-6'
+          }`}
       >
         <div
-          className={`glass-nav rounded-full px-6 py-3 flex items-center justify-between transition-all duration-500 ${
-            isScrolled ? 'shadow-lg' : ''
-          }`}
+          className={`glass-nav rounded-full px-6 py-3 flex items-center justify-between transition-all duration-500 ${isScrolled ? 'shadow-lg' : ''
+            }`}
         >
           {/* Logo */}
           <a
@@ -98,11 +96,10 @@ const Navigation = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 z-40 backdrop-blur-xl transition-all duration-500 md:hidden ${
-          isMobileMenuOpen
+        className={`fixed inset-0 z-40 backdrop-blur-xl transition-all duration-500 md:hidden ${isMobileMenuOpen
             ? 'opacity-100 pointer-events-auto'
             : 'opacity-0 pointer-events-none'
-        }`}
+          }`}
         style={{ background: 'var(--bg-primary)' }}
       >
         <div className="flex flex-col items-center justify-center h-full gap-8">

@@ -358,7 +358,7 @@ export const contactConfig: ContactConfig = {
   image: "/contact.jpg",
   phone: "+39 333 364 2656",
   email: "rayanmiskin321@gmail.com",
-  location: "207 Via Monti Di Primavalle 00163 Rome, Italy",
+  location: "207 Via Monti Di Primavalle 00168 Rome, Italy",
 };
 
 // ============================================================================
